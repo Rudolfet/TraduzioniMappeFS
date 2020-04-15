@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+		<text name="input_workMode" text="AutoLoader: attivare il modo di lavoro"/>
+		<text name="input_select" text="AutoLoader: Scegliete un materiale"/>
+		<text name="input_markerPosition" text="AutoLoader: Posizione dell'indicatore"/>
+		<text name="input_unload" text="AutoLoader: Scarica"/>
+		<text name="input_markerUp" text="AutoLoader: Marcatore: avanzare"/>
+		<text name="input_markerDown" text=" AutoLoader: Marcatore: in basso"/>
+		<text name="input_markerLeft" text="AutoLoader: Marcatore: spostare a sinistra"/>
+		<text name="input_markerRight" text=" AutoLoader: Marcatore: spostare a destra"/>
+		<text name="input_markerOriginal" text="AutoLoader: Marcatore: posizione di partenza"/>
+		<text name="input_markerForward" text="AutoLoader: Marcatore: andare avanti"/>
+		<text name="input_markerBackward" text="AutoLoader: Marcatore: tornare indietro"/>
+		<text name="workModeOn" text="AutoLoader: attivare il modo di lavoro"/>
+		<text name="workModeOff" text="AutoLoader: disattivare il modo di lavoro"/>
+		<text name="unload" text="Scaricare"/>
+		<text name="center" text="Scarica sopra"/>
+		<text name="left" text="Scarica a sinistra"/>
+		<text name="right" text="Scarica a destra"/>
+		<text name="back" text="Scarica dietro"/>
+		<text name="squareBales" text="AutoLoader: Seleziona: Balle quadrate"/>
+		<text name="roundBales" text="AutoLoader: Seleziona: 1.3m Balle quadrate"/>
+		<text name="pallets" text="AutoLoader: Seleziona: pallet"/>
+		<text name="ultima14" text="AutoLoader: Seleziona: 1.4m Balle tonde"/>
+		<text name="ultima15" text="AutoLoader: Seleziona: 1.5m Balle tonde"/>
+		<text name="smallSquareBales" text="AutoLoader: Seleziona: hd balle"/>
+		<text name="jd18bales" text="AutoLoader: Seleziona: Balle rotonde da 1.8m"/>
+		<text name="boardPallets" text="AutoLoader: Seleziona: pallet di legno"/>
+		<text name="eggBoxes" text="AutoLoader: Seleziona: Scatole di uova"/>
+		<text name="cottonModules" text="AutoLoader: Seleziona: Moduli in cotone"/>
+		<text name="jdCottonBale" text="AutoLoader: Seleziona: Balle di cotone rotonde"/>
+		<text name="missionPallets" text="AutoLoader: Seleziona: Pallet per missioni"/>
+		<text name="function_easyAutoLoaderKO" text="Easy AutoLoader abilitato. Consente il caricamento automatico di balle e pallet."/>
+	    <text name="configuration_ChasisColor" text="Colore telaio"/>
+		<text name="configuration_FlatBedColor" text="Colore del pianale"/>
+		<text name="configuration_valueNokian" text="Nokian"/>
+	</texts>
+</l10n>
