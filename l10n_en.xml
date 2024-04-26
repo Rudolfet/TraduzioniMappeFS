@@ -17,7 +17,7 @@
 <str key="action_openDoorBottom">Open lower door</str>
 <str key="action_closeDoorBottom">Close lower door</str>
 <str key="action_openAtticDoor">Open attic door</str>
-<str key="action_closeAtticDoor" Close attic door</str>
+<str key="action_closeAtticDoor">Close attic door</str>
 <str key="action_openAtticGate">Open attic gate</str>
 <str key="action_closeAtticGate">Close attic gate</str>
 <str key="action_openStableDoor">Open stable door</str>
