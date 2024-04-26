@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+	<!-- Misc -->
+		<text name="OravskaPolhora_hint01" >Mapa dediny. Mapa nekopiruje skutocnosť, ale ju napodobuje. </str>	
+		<text name="OravskaPolhora_hint02" >Mapa obsahuje Pohorie Babia Hora a okolie Oravskej Polhory</str>
+		<text name="category_miscObjects" >Miscellaneous</str>	
+		<text name="category_crates" >Boxes</str>
+		<text name="category_animalSupplies" >Animal supplies</str>	
+		<text name="category_consumerGoods" >Consumer Goods</str>			
+		<text name="closedText_default" >We're closed, come back later!</str>		
+		<text name="ui_colorMattX" >Matt %s" tag="format</str>		
+		
+	<!-- Actions -->
+		<text name="action_openServiceDoor" >Open hatch</str>	
+		<text name="action_closeServiceDoor" >Close hatch</str>
+		<text name="action_wallsOn" >Show walls</str>
+		<text name="action_wallsOff" >Hide walls</str>
+		<text name="action_openDoorTop" >Open upper door</str>	
+		<text name="action_closeDoorTop" >Close upper door</str>	
+		<text name="action_openDoorBottom" >Open lower door</str>	
+		<text name="action_closeDoorBottom" >Close lower door</str>	
+		<text name="action_openAtticDoor" >Open attic door</str>	
+		<text name="action_closeAtticDoor" >Close attic door</str>	
+		<text name="action_openAtticGate" >Open attic gate</str>	
+		<text name="action_closeAtticGate" >Close attic gate</str>	
+		<text name="action_openStableDoor" >Open stable door</str>	
+		<text name="action_closeStableDoor" >Close stable door</str>	
+		<text name="action_openBaleLattice" >Open bale grid</str>	
+		<text name="action_closeBaleLattice" >Close bale grid</str>	
+		<text name="action_lowerDown" >Go down</str>	
+		<text name="action_liftUp" >Go up</str>	
+		<text name="action_turnOnRadio" >Turn on radio</str>	
+		<text name="action_turnOffRadio" >Turn off radio</str>	
+		<text name="action_liftUpWindbreaker" >Open weather protection</str>	
+		<text name="action_lowerDownWindbreaker" >Close weather protection</str>	
+		<text name="action_startFruitHarvesting" >Begin apple harvest</str>	
+		<text name="action_stopFruitHarvesting" >Stop apple harvest</str>
+		<text name="action_openElectroFence" >Open pasture fence</str>	
+		<text name="action_closeElectroFence" >Close pasture fence</str>
+		<text name="action_openGates" >Open gates</str>	
+		<text name="action_closeGates" >Close gates</str>		
+		<text name="action_turnOnPump" >Switch on the pump</str>		
+		<text name="action_turnOffPump" >Switch off the pump</str>		
+		<text name="action_openButterDrum" >Open butter drum</str>		
+		<text name="action_closeButterDrum" >Close butter drum</str>			
+		<text name="action_sunLightSwitch" >Toggle sunlight !</str>	
+	
+	<!-- Units -->	
+		<text name="unit_bundle" >Bunch</str>
+		
+	<!-- UI TEXTS-->	
+		<text name="function_harvestingMangoldBeet"   >For Harvesting Mangold beet</str>
+		<text name="function_harvestingBeetroot" 	  >For Harvesting Beetroot</str>
+		<text name="function_harvestingCabbage" 	  >For Harvesting Cabbage</str>
+		<text name="function_haulmTopperGarlic" 	  >Na odstranenie vnate z cesnaku</str>
+		<text name="function_haulmTopperCarrot" 	  >Na odstranenie vnate z mrkvy</str>
+		<text name="function_haulmTopperBeetroot" 	  >Na odstranenie vnate z cvikle</str>
+		<text name="function_haulmTopperMangoldBeet" 	  >Na odstranenie vnate z cvikle</str>
+		<text name="function_haulmTopperOnion" 	      >Na odstranenie vnate z cibule</str>
+		<text name="ui_grainMealWheat" 	  >Wheat > Grain Meal</str>
+		<text name="ui_grainMealBarley"   >Barley > Grain Meal</str>
+		<text name="ui_grainMealOat" 	  >Oats > Grain Meal</str>
+		<text name="ui_grainMealSorghum"  >Millet > Grain Meal</str>
+		<text name="ui_flourWheat" 	  >Wheat > Flour</str>
+		<text name="ui_flourBarley"   >Barley > Flour</str>
+		<text name="ui_flourOat" 	  >Oats > Flour</str>
+		<text name="ui_flourSorghum"  >Millet > Flour</str>
+		<text name="ui_milkPallet"  >Milk > UHT milk (packaged)</str>
+		<text name="ui_grapeCleaner"  >Cleaning/Preparation</str>
+		<text name="ui_grapeFermenting"  >Fermentation</str>
+		<text name="ui_grapePress"  >Press/Stabilize</str>
+		<text name="ui_agingProgress"  >Maturation/Rest</str>
+		<text name="ui_wineFilling"  >Wine bottling (crates)</str>
+		<text name="ui_juiceFilling"  >Grape juice bottling (pallets)</str>
+		
+	<!-- Configurations -->	
+		<text name="configuration_valueBulk" >Bulk material</str>
+		<text name="configuration_valueFruits" >Apples</str>
+		<text name="configuration_valueEarthFruits" >Earth fruits</str>
+
+	<!-- FillTypes -->
+		<text name="MangoldBeetHarvesting"				    >MangoldBeetHarvesting</str>
+		<text name="CarrotHarvesting"						>CarrotHarvesting</str>
+		<text name="CabbageHarvesting"						>CabbageHarvesting</str>
+		<text name="GarlicHarvesting"						>GarlicHarvesting</str>
+		<text name="BeetrootHarvesting"					    >BeetrootHarvesting</str>
+		<text name="OnionHarvesting"					    >OnionHarvesting</str>
+		<text name="MongoldBeetHarvesting"					>MongoldBeetHarvesting</str>
+		<text name="MangoldBeetHarvesting"					>MangoldBeetHarvesting</str>
+		<text name="MultifruitHarvesting"					>Vegetables technic</str>
+		<text name="groundType_railwayGravel"			    >Railway gravel</str>								
+		<text name="groundType_cobblestone"			        >Stones</str>								
+		<text name="GROUNDTYPE_PLATE"				        >PLATE</str>								
+		<text name="GROUNDTYPE_ROCKDARK"				    >dark rock</str>								
+		<text name="GROUNDTYPE_GRAVELALPINE"				>Alp gravel</str>								
+		<text name="GROUNDTYPE_RIVERBANK"				    >River gavel</str>								
+		<text name="GROUNDTYPE_RAILWAYGRAVEL"			    >Railway gravel</str>								
+		<text name="GROUNDTYPE_COBBLESTONE"			        >Coblestone</str>								
+		<text name="fillType_01"							>Pumkin</str>								
+		<text name="fillType_02"							>WaterMelon</str>							
+		<text name="fillType_03"							> Melon</str>						   
+		<text name="fillType_BEETROOT"						>BEETROOT</str>
+		<text name="fillType_PARSNIP"						>PARSNIP</str>									
+		<text name="fillType_CARROT"						>CARROT</str>									
+		<text name="fillType_MUSTARD"						>MUSTARD</str>									
+		<text name="fillType_LENTILS"						>LENTILS</str>									
+		<text name="fillType_RICE"						    >RICE</str>									
+		<text name="fillType_PEAS"						    >PEAS</str>									
+		<text name="fillType_SPELT"						    >SPELT</str>									
+		<text name="fillType_spelt"						    >SPELT</str>									
+		<text name="fillType_TRITICALE"						>TRITICALE</str>									
+		<text name="fillType_triticale"						>TRITICALE</str>									
+		<text name="fillType_SUDANGRASS"				    >SUDANGRASS</str>									
+		<text name="fillType_BEANS"						    >BEANS</str>									
+		<text name="fillType_LINSEED"						>LINSEED</str>									
+		<text name="fillType_REDPOTATO"						>REDPOTATO</str>									
+		<text name="fillType_ONION"						    >ONION</str>								
+		<text name="fillType_RYE"							>RYE</str>								
+		<text name="fillType_MANGOLDBEET"					>MANGOLDBEET</str>								
+		<text name="fillType_MILLET"						>MILLET</str>								
+		<text name="fillType_ALFALFA"						>ALFALFA</str>								
+		<text name="fillType_ALFALFA_WINDROW"				>ALFALFA</str>						   
+		<text name="fillType_DRYALFALFA"					>ALFALFA"  />						   	 
+		<text name="fillType_DRYALFALFA_WINDROW"			>ALFALFA</str>					          
+		<text name="fillType_HOPS"							>HOPS</str>									
+		<text name="fillType_HOPSPELLETS"				    >HOPSPELLETS</str>									
+		<text name="fillType_LAVENDER"						>LAVENDER</str>								
+		<text name="fillType_POPPY"						    >POPPY</str>									
+		<text name="fillType_CABBAGE"						>CABBAGE</str>								
+		<text name="fillType_CLOVER"						>CLOVER</str>							    
+        <text name="fillType_CLOVER_WINDROW"				>CLOVER</str>							  
+		<text name="fillType_DRYCLOVER"		                >CLOVER</str>							   
+		<text name="fillType_DRYCLOVER_WINDROW"		        >CLOVER</str>							  
+		<text name="newfillType_HOPS"                       >HOPS</str>  
+		<text name="newfillType_HOPSPELLETS"                >HOPSPELLETS</str>
+		<text name="fillType_BARLEYBEER"					>BARLEYBEER</str>									
+		<text name="fillType_barleybeer"					>BARLEYBEER</str>									
+		<text name="fillType_WHEATBEER"					    >WHEATBEER</str>									
+		<text name="fillType_wheatbeer"					    >WHEATBEER</str>									
+		<text name="fillType_HOPS"							>HOPS</str>									
+		<text name="fillType_CHMEL"							>HOPS</str>									
+		<text name="fillType_HOPSPELLETS"				    >HOPSPELLETS</str>									
+		<text name="fillType_MILKCARTON"				    >MILKCARTON</str>									
+		<text name="fillType_LAVENDER"						>LAVENDER</str>								
+		<text name="fillType_POPPY"						    >POPPY</str>									
+		<text name="fillType_FLAX"						    >FLAX</str>									
+		<text name="fillType_SOYBEAN_STRAW"					>SOYBEAN_STRAW</str>								
+		<text name="fillType_CABBAGE"					    >CABBAGE</str>								
+		<text name="fillType_REDCABBAGE"					>RED CABBAGE</str>								
+		<text name="fillType_GARLIC"		                >GARLIC</str>								    
+		<text name="fillType_compost" >Compost</str>			
+		<text name="fillType_cucumber" >Cucumbers</str>			
+		<text name="fillType_cauliflower" >Cauliflower</str>			
+		<text name="fillType_onion" >Onions</str>			
+		<text name="fillType_goatmilk" >Goat milk</str>			
+		<text name="fillType_goatcheese" >Goat cheese</str>			
+		<text name="fillType_apple" >Apples</str>			
+		<text name="fillType_grainMeal" >Grain meal</str>			
+		<text name="fillType_hmilk" >UHT milk</str>			
+		<text name="fillType_organicWaste" >Biowaste</str>			
+		<text name="fillType_grape_cleaned" >Grapes (cleaned)</str>
+		<text name="fillType_grape_fermented" >Grapes (fermented)</str>			
+		<text name="fillType_trester" >Pomace (press residue)</str>			
+		<text name="fillType_wineUnpacked" >Red wine</str>			
+		<text name="fillType_winePacked" >Red wine (packaged)</str>			
+		<text name="fillType_grapeJuiceUnpacked" >Grape juice</str>			
+		<text name="fillType_grapeJuicePacked" >Grape juice (packaged)</str>			
+		<text name="fillType_calfmilk" >Calf milk</str>			
+		<text name="fillType_chickenFeed" >Chicken feed</str>			
+		<text name="catZone"        			>Cat Zone</str>
+        <text name="function_catZone"        		>Buy cats for your farm</str>
+		<text name="fillType_catFood" 			>Cat Food</str>
+        <text name="shopItem_petCarrier" >Pet carrier box</str>	
+        <text name="function_petCarrier" >Carrier for small pets such as cats and rabbits.</str>
+        <text name="function_rootStorage"        >Deposit your root crops here (potatoes, sugar beets, carrots and onions)</str>
+	    <text name="fillType_bran" 			    >bran</str>
+        <text name="fillType_linseedOil" 		>linseedOil</str>
+        <text name="fillType_milkcarton" 		>milkcarton</str>
+        <text name="fillType_poppyOil" 			>poppyOil</str>
+        <text name="fillType_cornOil" 			>cornOil</str>
+        <text name="fillType_soybeanOil" 		>soybeanOil</str>
+        <text name="fillType_pizza" 			>Pizza</str>
+        <text name="fillType_oatmilk" 			>oatmilk</str>
+        <text name="fillType_tofu" 			>Tofu</str>
+        <text name="fillType_soymilk" 			>soymilk</str>
+        <text name="fillType_icecream" 			>icecream</str>
+        <text name="fillType_yogurt" 			>yogurt</str>
+        <text name="storeItem_milkcarton" 		>milkcarton</str>
+        <text name="storeItem_oatmilk" 		   >oatmilk</str>
+        <text name="storeItem_soybeanOilPallet" 		>soybeanOilPallet</str>
+        <text name="storeItem_PoppyOil" 		>PoppyOil</str>
+        <text name="storeItem_soymilk" 		>soymilk</str>
+        <text name="storeItem_tofuBoxPallet" 		>tofuBoxPallet</str>
+        <text name="fillType_WhiteWinePallet" 		>WhiteWinePallet</str>
+        <text name="fillType_RedWinePallet" 		>RedWinePallet</str>
+        <text name="fillType_bourbon" 		>Bourbon</str>
+        <text name="shopItem_winery" 		>winery</str>
+        <text name="shopItem_appleTree" 		>appleTree</str>
+        <text name="fillType_emptypallets" 		>emptypallets</str>
+        <text name="storeItem_yogurt" 		       >yogurt</str>
+        <text name="yogurt" 		       >yogurt</str>
+        <text name="fillType_wine" 			>wine</str>
+        <text name="fillType_wineB" 			>wine</str>
+        <text name="fillType_milkcerton" 			>milkcerton</str>
+
+	<!-- FoodGroups -->
+		<text name="fillTypeGroup_grassHay" >Grass/hay</str>			
+		<text name="fillTypeGroup_milk" >Calf milk (only use for calves)</str>			
+		
+	<!-- Preplaced StoreItem Names -->
+		<text name="object_farmSiloOld" >Old farm silo</str>	
+		<text name="object_toolShelter" >Tool Shelter</str>	
+		<text name="object_horseStableAtticSilo" >Hay/straw storage</str>
+		<text name="bunkerSiloFarm" >Silage Silo (Farm)</str>	
+		<text name="object_farmBuilding" >Courtyard building</str>	
+		<text name="object_farmHouseResidenz" >Andy's House</str>	
+		<text name="object_farmAccessories" >Yard accessories</str>	
+		<text name="object_slurryStorage" >Liquid manure storage</str>	
+		<text name="object_bulkStorageHall" >Bulk storage</str>	
+		<text name="object_manureHeapFarm" >Manure pit (Farm)</str>	
+		<text name="object_manureHeapHorseBox" >Manure (Horse stable)</str>	
+		<text name="object_gardenHouse" >Garden house</str>	
+		<text name="object_bunkerSilo" >Bunker Silo</str>	
+		<text name="object_bgaPlant" >Biogas plant (99kw)</str>	
+		<text name="object_puplicBuilding" >Building</str>	
+		<text name="object_oldVineyardBuilding" >Old building (winery)</str>	
+		<text name="object_compostSilo" >Compost Silo</str>	
+		<text name="object_uniaSiloSystemModular" >Unia Silo System</str>	
+		<text name="object_uniaSiloSystemPoultryFarm" >Unia poultry feed silo</str>	
+		
+		<!-- Production Points -->
+		<text name="productionPoint_cheeseProduction" >Cheese production</str>	
+		<text name="productionPoint_butterProduction" >Butter production</str>	
+		<text name="productionPoint_forageStarTMR" >ForageStar</str>	
+		<text name="productionPoint_grainMill01" >Grain mill (wholemeal)</str>	
+		<text name="productionPoint_grainMill02" >Grain mill (flour)</str>	
+		<text name="productionPoint_dairy" >Country dairy</str>	
+		<text name="productionPoint_grapePart01" >Grape Processing (Step 1)</str>	
+		<text name="productionPoint_grapePart02" >Grape Processing (Step 2)</str>	
+		<text name="productionPoint_grapePart03" >Grape Processing (Step 3)</str>	
+		<text name="productionPoint_grapePart04" >Grape Processing (Step 4)</str>	
+		<text name="productionPoint_contractFiller" >Contract filler</str>	
+		
+		<!-- Selling Points -->
+		<text name="sellingPoint_villageShop" >Village shop</str>	
+		<text name="sellingPoint_landMarket" >Land Market</str>	
+		<text name="sellingPoint_livestockMarket" >Livestock/feed Market</str>	
+		<text name="sellingPoint_carpentry" >Carpentry</str>	
+		<text name="sellingPoint_spinnery" >Spinnery</str>	
+		
+		<!-- Buying Stations -->
+		<text name="buyingStation_landMarket" >Land market (sales)</str>	
+		<text name="buyingStation_waterPlace01" >Fountain (farm)</str>	
+		
+		<!-- Garden Fields -->
+		<text name="shopItem_rootSilo_carrot" >Silo carrot</str>	
+		<text name="shopItem_rootSilo_cabbage" >Silo cabbage</str>	
+		<text name="shopItem_rootSilo_beetroot" >Silo beetroot</str>	
+		<text name="shopItem_rootSilo_mangoldbeet" >Silo mangoldbeet</str>	
+		<text name="shopItem_rootSilo_sugarbeet" >Silo sugarbeet</str>	
+		<text name="shopItem_rootSilo_potato" >Silo potato</str>	
+		<text name="shopItem_rootSilo_garlic" >Silo garlic</str>	
+		<text name="shopItem_rootSilo_onion" >Silo onion</str>	
+		
+		<text name="shopItem_gardenField01" >Garden Field1 (allotment)</str>	
+		<text name="shopItem_gardenField02" >Garden Field2 (allotment)</str>	
+		<text name="shopItem_gardenField03" >Garden Field3 (allotment)</str>	
+		<text name="shopItem_gardenField04" >Garden Field4 (allotment)</str>	
+		<text name="shopItem_gardenField05" >Garden Field5 (allotment)</str>	
+		<text name="shopItem_gardenField06vine" >Grape vines (allotment)</str>	
+		<text name="shopItem_gardenFruitTreeSystem01" >Fruit trees (allotment)</str>	
+
+		<!-- Husbandrys -->
+		<text name="animal_autonomLivestock" >Autonomous Animals</str>	
+		<text name="animal_chickenPenFarm" >Chicken coop (farm)</str>	
+		<text name="animal_pigPenFarm" >Pigsty (farm)</str>	
+		<text name="animal_cowPenFarm" >Cowshed (farm)</str>	
+		<text name="animal_sheepPen" >Sheep pasture</str>	
+		<text name="animal_horseStableBox01" >Horse Stable (Box1)</str>	
+		<text name="animal_horseStableBox02" >Horse Stable (Box2)</str>	
+		<text name="animal_horseStableBox03" >Horse Stable (Box3)</str>	
+		<text name="animal_horseStableBox04" >Horse Stable (Box4)</str>	
+		<text name="animal_horseStableBox05" >Horse Stable (Box5)</str>	
+		<text name="animal_horseStableBox06" >Horse Stable (Box6)</str>	
+		<text name="animal_horseStableBox07" >Horse Stable (Box7)</str>	
+		<text name="animal_horseStableBox08" >Horse Stable (Box8)</str>	
+		<text name="animal_horsePaddock" 	 >Horse paddock</str>	
+		<text name="animal_cowPasture01" 	 >Cow pasture A</str>	
+		<text name="animal_calfIglu01" 	 	 >Calf Igloo A</str>	
+		<text name="animal_calfIglu02" 	 	 >Calf Igloo B</str>	
+		<text name="animal_calfIglu03" 	 	 >Calf Igloo C</str>	
+		<text name="animal_calfIglu04" 	 	 >Calf Igloo D</str>	
+		<text name="animal_calfIglu05" 	 	 >Calf Igloo E</str>	
+		<text name="animal_calfIglu06" 	 	 >Calf Igloo F</str>	
+		<text name="animal_calfIglu07" 	 	 >Calf Igloo G</str>	
+		<text name="animal_calfIglu08" 	 	 >Calf Igloo H</str>	
+		<text name="animal_poultryStable01" >Poultry House A</str>	
+		<text name="animal_poultryStable02" >Poultry House B</str>	
+		<text name="animal_poultryStable03" >Poultry House C</str>	
+		<text name="animal_poultryProcessingBuilding" >Processing Building</str>	
+
+	<!-- Animals -->
+		<!-- Chickens/Duck -->
+		<text name="fillType_duck" >Duck</str>
+		<text name="shopItem_animalDuckGrowthStage0" >Ducklings</str>
+		<text name="animal_duckGrowthStage0Description" >Ducklings don't lay eggs yet. These are suitable for rearing or can be sold.</str>	
+		<text name="shopItem_animalDuckGrowthStage1" >Duck</str>	
+		<text name="animal_duckGrowthStage1Description" >Ducks provide you with eggs that you can sell at a point of sale or process further in your productions.</str>	
+		
+		<text name="shopItem_animalChickenGrowthStage0" >Chicken Chick</str>
+		<text name="animal_chickenGrowthStage0Description" >Small chicken chicks can grow into adult chickens. These can then be sold or used to lay eggs.</str>	
+		<text name="shopItem_animalChickenGrowthStage1" >Chicken</str>	
+		<text name="animal_chickenGrowthStage1Description" >An adult chicken can be sold or used to produce eggs.</str>	
+		<text name="animal_roosterDescription" >A rooster is the boss in the chicken pen and takes care of your chickens.</str>	
+        
+		<text name="fillType_husBiela" >Goose White</str>
+		<text name="fillType_husPomoranska" >Goose Pomoranska</str>
+		<text name="fillType_hus" >Gooses</str>
+		<text name="shopItem_animalHusGrowthStage0" >little goose Biela</str>
+		<text name="shopItem_animalHus2GrowthStage0" >little goose Pomoranska</str>
+		<text name="animal_husGrowthStage0Description" >Goose little don't lay eggs yet. These are suitable for rearing or can be sold.</str>	
+		<text name="shopItem_animalHusGrowthStage1" >Goose White</str>	
+		<text name="shopItem_animalHus2GrowthStage1" >Goose Pomoranska</str>	
+		<text name="animal_husGrowthStage1Description" >Goose provide you with eggs that you can sell at a point of sale or process further in your productions.</str>	
+		
+		<!-- Pig/Piglets -->
+		<text name="fillType_Mangalica" >Mangalica</str>	
+		<text name="shopItem_animalPigMangalicaSmall" >Mangalica piglet</str>	
+		<text name="shopItem_animalPigMangalica" >Mangalica</str>	
+		<text name="shopItem_animalPigMangalicaBig" >Mangalica big</str>	
+		<text name="animal_pigMangalicaDescription" >Mangalice known for their easy breeding, they need to be fed to grow big sows.</str>	
+        
+		<text name="shopItem_animalPiglet" >Pig (Piglet)</str>	
+		<text name="animal_pigletDescription" >In order to breed piglets (0-3 months) into fattening pigs, they must be regularly supplied with fresh feed, water and straw.</str>	
+		<text name="fillType_piglet" >Piglet</str>	
+		
+		<text name="shopItem_animalPigFattening" >Pig (Porker)</str>	
+		<text name="animal_pigFatteningDescription" >Porker, also known as fattening pigs, need to be fed well so that they can develop into sows ready for slaughter.</str>	
+
+		<text name="shopItem_animalPigSow" >Pig (Sow)</str>	
+		<text name="animal_pigSowDescription" >These pigs are already fully grown and can be used for reproduction. Sows have a gestation period of 4 months.</str>	
+		
+		<!-- Morky -->
+		<text name="fillType_morka" >Turkeys</str>
+		<text name="fillType_moriak" >Turkeys</str>
+		<text name="shopItem_animalMorkaGrowthStage0" >Turkeys small</str>
+		<text name="shopItem_animalMorkaGrowthStage1" >Turkeys</str>
+		<text name="animal_morkaGrowthStage0Description" >Guinea pigs are not yet laying eggs, they are suitable for breeding or can be sold.</str>	
+		<text name="animal_morkaGrowthStage1Description" >Turkeys give you eggs that you can use to 1. Breed turkeys. 2. Sell at the point of sale. 3. Process in your productions.</str>	
+		<text name="shopItem_animalMoriakGrowthStage0" >Turkeys small</str>
+		<text name="shopItem_animalMoriakGrowthStage1" >Turkeys</str>
+		<text name="animal_moriakGrowthStage0Description" >Guinea pigs are not yet laying eggs, they are suitable for breeding or can be sold.</str>	
+		<text name="animal_moriakGrowthStage1Description" >The turkey is bigger than the turkey and will ensure that the turkey lays eggs. But you can also breed them and sell them fattened.</str>	
+		
+		<!-- Bazant -->
+		<text name="fillType_bazant" >Pheasant</str>
+		<text name="shopItem_animalBazantGrowthStage0" >pheasant small</str>
+		<text name="shopItem_animalBazantGrowthStage1" >Pheasant</str>
+		<text name="animal_bazantGrowthStage0Description" >Pheasants are not yet laying eggs, are suitable for breeding or can be sold.</str>	
+		<text name="animal_bazantGrowthStage1Description" >Pheasants give you eggs that you can use to 1. Breed pheasants. 2. Sell at the point of sale. 3. Process in your productions.</str>	
+		
+		<!-- Pavy -->
+		<text name="fillType_pav" >Peacock</str>
+		<text name="fillType_pavQ" >Peacock </str>
+		<text name="shopItem_animalPavGrowthStage0" >Young male peacock</str>
+		<text name="shopItem_animalPavGrowthStage1" >Male peacock</str>
+		<text name="animal_pavGrowthStage0Description" >The young are not yet laying eggs, are suitable for breeding or can be sold.</str>	
+		<text name="animal_pavGrowthStage1Description" >The peacock forms a pair with the peacock. Together, they provide you with eggs that you can use for 1. Breeding. 2. Sell at the point of sale. 3. Process in your productions.</str>	
+		<text name="shopItem_animalPavQGrowthStage0" >Peacock female young</str>
+		<text name="shopItem_animalPavQGrowthStage1" >Peacock female</str>
+		<text name="animal_pavQGrowthStage0Description" >The young are not yet laying eggs, are suitable for breeding or can be sold.</str>	
+		<text name="animal_pavQGrowthStage1Description" >The peafowl forms a pair with the peacock. Together, they provide you with eggs that you can use for 1. Breeding. 2. Sell at the point of sale. 3. Process in your productions.</str>	
+		
+		<!-- Cow/Calf -->
+		<text name="shopItem_animalCowHolsteinGrowthStage0" >Calf (Holstein)</str>
+		<text name="animal_cowHolsteinGrowthStage0" >Feed your calves regularly so that they can develop into heifers and then into cows.</str>		
+		<text name="shopItem_animalCowHolsteinGrowthStage1" >Heifer (Holstein)</str>
+		<text name="animal_cowHolsteinGrowthStage1" >Feed your heifers regularly so that they can develop into cows.</str>		
+		<text name="shopItem_animalCowHolsteinGrowthStage2" >Cow (Holstein)</str>
+		<text name="animal_cowHolsteinGrowthStage2" >At this stage, cows can have young and give milk.</str>		
+
+		<text name="shopItem_animalCowAngusGrowthStage0" >Calf (Angus)</str>	
+		<text name="animal_cowAngusGrowthStage0" >Feed your calves regularly so that they can develop into heifers and then into cows.</str>		
+		<text name="shopItem_animalCowAngusGrowthStage1" >Heifer (Angus)</str>
+		<text name="animal_cowAngusGrowthStage1" >Feed your heifers regularly so that they can develop into cows.</str>		
+		<text name="shopItem_animalCowAngusGrowthStage2" >Cow (Angus)</str>
+		<text name="animal_cowAngusGrowthStage2" >At this stage, cows can have young and give milk.</str>
+
+		<text name="fillType_bull" >Bull</str>			
+		<text name="shopItem_animalBullHolstein" >Bull (Holstein)</str>			
+		<text name="shopItem_animalBullAngus" >Bull (Angus)</str>			
+		<text name="animal_descriptionBullFeed" >Bulls like grass, hay, silage and TMR.</str>			
+		<text name="animal_bullGrowthStage0" >Bull calf</str>			
+		<text name="animal_bullGrowthStage1" >Bulls are the protectors of your cow herd.</str>			
+		
+		<!-- Deer -->
+		<text name="fillType_deer" >Deer</str>
+		<text name="shopItem_animalDeerGrowthStage0" >Deer</str>	
+		<text name="animal_deerGrowthStage0Description" >Young people need to be taken care of so that they grow up well.</str>	
+		<text name="shopItem_animalDeerGrowthStage1" >Deer</str>
+		<text name="animal_deerGrowthStage1Description" >For centuries, the forest deer has been a very popular hunting animal.</str>
+		<text name="shopItem_animalDeer" >Deer</str>
+		<text name="animal_deerDescription" >Males grow up to 175-230 cm and their weight varies between 160-240 kg.</str>
+		<text name="animal_descriptionDeerFeed" >Deer eat grass and hay.</str>
+		<text name="shopItem_animalSrnaGrowthStage0" >fawn</str>	
+		<text name="animal_srnaGrowthStage0Description" >O mladata sa treba starat aby dobré vyrastli.</str>	
+		<text name="shopItem_animalSrnaGrowthStage1" >fawn</str>
+		<text name="animal_srnaGrowthStage1Description" >In the wild, forest deer live an average of 10 to 13 years, in captivity they can live more than 20 years.</str>
+		<text name="fillType_srna" >fawn</str>	
+		<text name="shopItem_animalSrna" >fawn</str>
+		<text name="animal_srnaDescription" >Females are significantly smaller than males, growing to 160-210 cm and weighing between 120-170 kg.</str>
+		<text name="animal_descriptionSrnaFeed" >Roe deer eat grass and hay.</str>
+		
+		<!-- Sheep/Lamb/Ram/Goat -->
+		<text name="shopItem_animalSheepGrowthStage0" >Lamb</str>	
+		<text name="animal_sheepGrowthStage0Description" >Lambs are the young animals of the sheep, feed your lambs regularly so that they can develop into sheep.</str>	
+		<text name="shopItem_animalSheepGrowthStage1" >Sheep</str>
+		<text name="animal_sheepGrowthStage1Description" >Sheep are the mothers of the sheep, which produce wool or can be sold.</str>	
+		<text name="fillType_ram" >Ram</str>	
+		<text name="shopItem_animalRam" >Ram</str>	
+		<text name="animal_ramDescription" >Rams are the father animals of the sheep, they serve as protectors of the flock. Note: Rams do not reproduce.</str>
+
+		<text name="fillType_goat" >Goat</str>
+		<text name="shopItem_animalGoatGrowthStage0" >Young goat</str>	
+		<text name="animal_goatGrowthStage0Description" >Goats are the young animals of the goats, feed your kids regularly so that they can develop into goats.</str>	
+		<text name="shopItem_animalGoatGrowthStage1" >Goat</str>
+		<text name="animal_goatGrowthStage1Description" >Goats are the mothers of the goats, these produce goat's milk or can be sold. Goat's milk is ideal for making goat's cheese.</str>
+		<text name="fillType_goatMale" >Goat male</str>	
+		<text name="shopItem_animalGoatMale" >Goat male</str>
+		<text name="animal_goatMaleDescription" >Goats male are the father animals of the goats, they serve as protectors of the herd. Note: goats male do not reproduce.</str>
+		<text name="animal_descriptionGoatFeed" >Goats eat grass and hay.</str>
+		
+		<!-- Horse/Foal -->
+		<text name="animal_foalGray" >Foal (Gray)</str>
+		<text name="animal_horseGray" >Mare (Gray)</str>
+		<text name="animal_foalPalomino" >Foal (Palomino)</str>
+		<text name="animal_horsePalomino" >Mare (Palomino)</str>
+		<text name="animal_foalBlack" >Foal (Black)</str>
+		<text name="animal_horseBlack" >Mare (Rappe)</str>
+		<text name="animal_foalSealBrown" >Foal (Brown)</str>
+		<text name="animal_horseSealBrown" >Mare (Brown)</str>
+		<text name="animal_descriptionFoal" >Foals need a lot of love and care in order for them to develop into adult animals.</str>
+
+        <!-- Cat -->
+		<text name="fillType_cat" >Cat</str>
+		<text name="shopItem_animalCatGrowthStage0" >Kitten (Mixed)</str>
+		<text name="animal_descriptionCatFeed" >Cats need fresh food every day. The water supply happens automatically.</str>
+		<text name="animal_catGrowthStage0Description" >Kittens can be raised to be big cats. They reach sexual maturity at 8 months.</str>
+		<text name="animal_catGrowthStage1Description" >Cats can have small kittens, the gestation period is 2 months.</str>
+		<text name="shopItem_animalCatTigerGrowthStage1" >Cat (mackerel)</str>
+		<text name="shopItem_animalCatBWGrowthStage1" >Cat (black/white)</str>
+		<text name="shopItem_animalCatBlackGrowthStage1" >Cat (black)</str>
+		<text name="shopItem_animalCatGreyGrowthStage1" >Cat (grey)</str>
+		<text name="shopItem_animalCatRedGrowthStage1" >Cat (red)</str>
+		<text name="shopItem_animalCatWhiteGrowthStage1" >Cat (white)</str>
+		
+		<!-- Rabbits -->
+		<text name="fillType_rabbit" >Rabbit</str>
+		<text name="shopItem_animalRabbitGrowthStage0" >Rabbit (puppy)</str>
+		<text name="shopItem_animalRabbitGrowthStage1" >Rabbit (cub)</str>
+		<text name="shopItem_animalRabbitGrowthStage2" >Rabbit (female)</str>
+		<text name="shopItem_animalRabbitGrowthStage3" >Rabbit (male)</str>
+		<text name="animal_rabbitGrowthStage0Description" >Rabbit puppies are the youngest of this species. They cannot be purchased individually and are born from a mother animal.</str>
+		<text name="animal_rabbitGrowthStage1Description" >A young rabbit can be used for rearing.</str>
+		<text name="animal_rabbitGrowthStage2Description" >Female rabbits also called Zippe, they can have offspring or be sold. The offspring are younger and smaller than a cub.</str>
+		<text name="animal_rabbitGrowthStage3Description" >Buck is the male of the rabbit. Can only be bought and sold.</str>
+		<text name="animal_rabbitBeddingDescription" >Rabbits need straw to be comfortable.</str>
+		<text name="animal_rabbitFoodDescription" >Rabbits need a varied diet, among which counts clover, clover hay, carrots lettuce or other vegetables. Fresh water is given automatically.</str>
+		<text name="animal_rabbitHutch" >Rabbit Hutch</str>
+		<text name="function_rabbits" >In this habitat you can raise up to 100 rabbits.</str>
+
+	<!-- Objects -->	
+		<text name="storeItem_strawberriesBox" >Strawberry box</str>	
+		<text name="storeItem_lettuceBox" >Salad box</str>	
+		<text name="storeItem_tomatoesBox" >Tomato box</str>	
+		<text name="storeItem_cucumberBox" >Cucumber box</str>	
+		<text name="storeItem_cauliflowerBox" >Cauliflower box</str>	
+		<text name="storeItem_onionSack" >Onion sack</str>	
+		<text name="shopItem_fillableWoodBox" >Wooden box (fillable)</str>
+		<text name="function_fillableWoodBox" >This box can be filled with bulk or earth crops such as potatoes and beets.</str>
+		<text name="function_palletAttacher" >Pallet fork with attacher. This allows checking for objects such as crates attached to the fork.</str>
+		<text name="storeItem_appleTree" >Apple tree</str>
+		<text name="storeItem_flourSack" >Flour sack</str>
+		<text name="storeItem_milkPallet" >Milk palette</str>
+		<text name="shopItem_fillableBigBox" >BigBox</str>
+		<text name="function_fillableBigBox" >Transporting bulk goods. Is recommended in winemaking to get waste products from the productions. Special features: reusable box, this box can be attached to compatible pallet forks.</str>
+		<text name="shopItem_fillableAppleBox" >Fillable apple box</str>
+		<text name="function_fillableAppleBox" >Can be used to transfer the small apple crates into this larger crate. Special features: Reusable box.</str>
+		<text name="function_fertilizerBag" >Needed to fertilize the beds in the allotment garden.</str>
+	<!-- Placeables -->	
+		<text name="storeItem_ibcTankFrame" >Rack for IBC tanks</str>
+		<text name="function_ibcTankFrame" >A rack used for IBC tanks. Allows liquids to be removed with a bucket.</str>
+		<text name="storeItem_bigBagFrame" >Rack for big bags</str>
+		<text name="function_bigBagFrame" >A frame which is used for BigBags. Enables removal from a BigBag with a wheelbarrow.</str>
+	<!-- Based On Vehicle -->
+		<text name="storeItem_dieselStorageTank" >Diesel storage tank</str>	
+		<text name="shopItem_fillableBucket" >Bucket (fillable)</str>	
+		<text name="function_fillableBucket" >A bucket can be filled with various things.</str>	
+		<text name="shopItem_waterPoint01" >Water point at the farm</str>
+		<text name="shopItem_gardenPump01" >Garden pump</str>
+		<text name="shopItem_ibcWaterTank" >IBC water tank</str>
+		<text name="shopItem_fillableWateringCan" >Watering can (fillable)</str>
+		<text name="function_fillableWateringCan" >A watering can is the perfect tool for watering your garden.</str>
+		<text name="enterText_baleStorage" >Operate bale storage!</str>
+	
+	<!-- Vehicles -->	
+		<text name="vehicle_forklift" >(company property)</str>
+		<text name="shopItem_mobileMilkingStand" >Mobile milking parlour</str>
+		<text name="function_mobileMilkingStand" >This mobile milking parlor is needed to milk your cows on a cow pasture.</str>
+		<text name="typeDesc_mobileMilkStand" >Mobile milking parlour</str>
+		<text name="enterText_mobileMilkingStand" >Operate the milking parlour</str>
+		<text name="function_compostSpreader" >Compost spreaders are used to increase the yield of fields.</str>
+		<text name="typeDesc_compostSpreader" >Compost spreader</str>
+		
+		<!-- LSFM AT Mini -->
+		<text name="configuration_inputAttacherToolbar" >Drawbar</str>	
+		<text name="configuration_inputAttacherPullingMouth" >Hitch</str>
+		<text name="configuration_inputAttacherBallHead" >Ball Head</str>		
+		
+		<!-- Pickup 2017 -->
+		<text name="configurationsTitle_valueHardTop" >Hardtop</str>	
+		<text name="configurationsTitle_valueBrandLogos" >Company logos</str>
+		<text name="configurationsTitle_valueBeaconlights" >Beacons</str>	
+		<text name="configuration_valueHB" >Hof Bergmann</str>	
+		<text name="configuration_valueLSFM" >LSFM</str>	
+		
+		<!-- BaleStorages -->
+		<text name="shopItem_squareBaleStorage" >Square bale storage</str>	
+		<text name="typeDesc_squareBaleStorage" >Square bale storage</str>	
+		<text name="shopItem_roundBaleStorage" >Round bale storage</str>	
+		<text name="typeDesc_roundBaleStorage" >Round bale storage</str>	
+		<text name="baleStorage_unloadHere" >Relocate bales now</str>	
+		<text name="baleStorage_unload" >Bale outsourcing</str>	
+		<text name="baleStorage_abortUnload" >Cancel bale retrieval</str>	
+		<text name="baleStorage_storeModusOn" >Turn on storage mode !</str>	
+		<text name="baleStorage_storeModusOff" >Turn off storage mode !</str>	
+		<text name="baleStorage_lowerText" >Back</str>		
+		<text name="WarningBalenotSupported" >Bale is not supported !</str>		
+
+	<!-- BigBags -->
+		<text name="storeItem_lsfmBigBagChickenFood" 	>Chicken feed (Bigbag)</str>	
+		<text name="storeItem_lsfmBigBagFertilizer" 	>Fertilizers (Bigbag)</str>
+		<text name="storeItem_lsfmBigBagForage" 		>Mixed feed (Bigbag)</str>	
+		<text name="storeItem_lsfmBigBagHorseFood" 		>Horse feed (Bigbag)</str>	
+		<text name="storeItem_lsfmBigBagLime" 			>Lime (Bigbag)</str>	
+		<text name="storeItem_lsfmBigBagPigFood" 		>Pig feed (BigBag)</str>	
+		<text name="storeItem_lsfmBigBagRoadSalt" 		>Road salt (Bigbag)</str>	
+		<text name="storeItem_lsfmBigBagSeeds" 			>Seed (Bigbag)</str>	
+
+		<text name="function_lsfmBigBagChickenFood" 	>Fresh wheat can be fed to your chickens.</str>	
+		<text name="function_lsfmBigBagFertilizer" 		>You use big bags to fill up your fertilizer spreaders.</str>
+		<text name="function_lsfmBigBagForage" 			>The perfect feed mixture for your cattle.</str>	
+		<text name="function_lsfmBigBagHorseFood" 		>Fresh oats can be fed to your horses.</str>	
+		<text name="function_lsfmBigBagLime" 			>You use big bags to fill up your lime spreaders.</str>	
+		<text name="function_lsfmBigBagPigFood" 		>The perfect feed mixture for your pigs.</str>	
+		<text name="function_lsfmBigBagRoadSalt" 		>Road salt can be used to clear snow from the streets as long as it is not too high.</str>	
+		<text name="function_lsfmBigBagSeeds" 			>You use big bags to fill up your seeders.</str>	
+    
+	<!-- Les -->
+	<text name="storeItem_lodgepolePine_stage01"   	>lodgepole stage 1</str>	
+	<text name="storeItem_lodgepolePine_stage02"   	>lodgepole stage 2</str>	
+	<text name="storeItem_lodgepolePine_stage03"   	>lodgepole stage 3</str>	
+	<text name="storeItem_ponderosaPine_stage01"   	>ponderosa Pine stage 1</str>	
+	<text name="storeItem_ponderosaPine_stage02"   	>ponderosa Pine stage 2</str>	
+	<text name="storeItem_ponderosaPine_stage03"   	>ponderosa Pine stage 3</str>	
+	<text name="storeItem_ponderosaPine_stage04"   	>ponderosa Pine stage 4</str>	
+	<text name="storeItem_giantSequoia_stage01"   	>giant Sequoia stage 1</str>	
+	<text name="storeItem_giantSequoia_stage02"   	>giant Sequoia stage 2</str>	
+	<text name="storeItem_giantSequoia_stage03"   	>giant Sequoia stage 3</str>	
+	<text name="storeItem_giantSequoia_stage04"   	>giant Sequoia stage 4</str>	
+	<text name="storeItem_giantSequoia_stage05"   	>giant Sequoia stage 5</str>	
+	<text name="storeItem_duglaska_stage01" 	>Douglas fir_stage1</str>	
+	<text name="storeItem_duglaska_stage02" 	>Douglas fir_stage2</str>	
+	<text name="storeItem_duglaska_stage03" 	>Douglas fir_stage3</str>	
+	<text name="storeItem_duglaska_stage04" 	>Douglas fir_stage4</str>	
+	<text name="storeItem_duglaska_stage05" 	>Douglas fir_stage5</str>	
+	<text name="storeItem_duglaska_stage06" 	>Douglas fir_stage6</str>	
+	<text name="storeItem_duglaska_stage07" 	>Douglas fir_stage7</str>	
+	<text name="treeType_duglaska" 	>Douglas fir</str>	
+	<text name="treeType_smerek" 	>spruce</str>	
+	<text name="treeType_spruce2" 	>spruce</str>	
+	<text name="treeType_buk"   	>beech tree</str>	
+	<text name="treeType_lodgepolePine"   	>lodgepole Pine</str>	
+	<text name="treeType_giantSequoia"   	>giant Sequoia</str>	
+	<text name="treeType_ponderosaPine"   	>ponderosa Pine</str>	
+	<text name="treeType_jedla" 	>fir tree</str>			
+	<text name="action_palletFillerBuyPallets" >Buy new boxes</str>
+	<text name="action_palletFillerIdle" >Lift platform</str>
+	<text name="action_palletFillerLoad" >Load boxes</str>
+	<text name="action_palletFillerUnload" >Unload boxes</str>
+	<text name="action_passFootball" >Pass</str>
+	<text name="action_resetFootballField" >Reset football field</str>
+	<text name="action_shootFootball" >Shoot</str>
+	<text name="ai_messageErrorNoPalletsLoaded" >AI worker %s could not start. No boxes loaded to be filled!" tag="format</str>
+	<text name="ai_messageErrorPalletsFull" >AI worker %s has stopped. All boxes are full!" tag="format</str>
+	<text name="category_vegetableVehicles" >Vegetable Technology</str>
+	<text name="collectible_premium_all" >Congratulations! You found all 50 apples!</str>
+	<text name="collectible_premium_apple" >You found a golden apple! Just %d more to go!" tag="format</str>
+	<text name="collectible_premium_intro" >The decorative golden apples have been removed from the two trees on the local park&apos;s lake island. Can you find all 50 apples and restore the trees to their former glory?</str>
+	<text name="configuration_fender" >Fender</str>
+	<text name="configuration_fertilizerUnit" >Fertilizer Distribution Unit</str>
+	<text name="configuration_foldable" >Fold</str>
+	<text name="configuration_palletSpawner" >Pallet spawner</str>
+	<text name="configuration_rigid" >Rigid</str>
+	<text name="configuration_widthLimit" >Boundary Spreading System</str>
+	<text name="fillType_piano" >Piano</str>
+	<text name="fillType_potatoChips" >Potato Chips</str>
+	<text name="fillType_preservedFoodBeetRoot" >Preserved Food Beetroot</str>
+	<text name="fillType_preservedFoodCarrots" >Preserved Food Carrots</str>
+	<text name="fillType_preservedFoodParsnip" >Preserved Food Parsnip</str>
+	<text name="fillType_soupCans" >Soup Cans</str>
+	<text name="fillType_soupCansBeetroot" >Red Beet Soup</str>
+	<text name="fillType_soupCansCarrots" >Carrot Soup</str>
+	<text name="fillType_soupCansMixed" >Triple Soup</str>
+	<text name="fillType_soupCansParsnip" >Parsnip Soup</str>
+	<text name="fillType_soupCansPotato" >Potato Soup</str>
+	<text name="function_planterVegetables" >This special planter is used to plant vegetables.</str>
+	<text name="function_ridgeFormer" >This tool is used to create ridges into which you can plant your vegetables afterwards.</str>
+	<text name="function_topLiftingHarvester" >This top lifting harvester is used to pull vegetables out of the ground.</str>
+	<text name="helpLine_animals_moreFood" >More Animal Food</str>
+	<text name="helpLine_animals_moreFoodtext" >With the introduction of the new vegetable varieties carrots, parsnips and red beet, you now have more options to feed your animals and to liven up the menu of your pigs and horses.
+
+	The new types of feed are included in the feeding plan as follows:
+
+	Pigs
+	Base food: either Corn or sorghum
+	Grain: either wheat or barley 
+	Protein: either soybeans, canola, or sunflowers
+	Root crops: either potatoes, sugar beet, carrots, parsnips, or red beet
+
+	Horses
+	Base food: either oat or sorghum
+	Hay
+	Root crops: either carrots, parsnips, or red beet</str>
+	<text name="helpLine_creatingRidgesTitle" >Creating ridges</str>
+	<text name="helpLine_creatingRidgesdesc_1" >Before sowing the new crop varieties, it is now possible to create ridges with the Grimme GF 800 ridging equipment. This new step not only makes the vegetable field look more realistic, but also adds a fertiliser stage.</str>
+	<text name="helpLine_creatingRidgesdesc_2" >The cultivation itself, as with previous root crops, requires specialized seeding and harvesting equipment. With Kverneland&apos;s precision planters, the seeds can be planted directly into the ridges. Unlike before, the planting rows can realistically be laid out in straight rows and at 90 angles to each other.</str>
+	<text name="helpLine_creatingRidgesdesc_3" >Harvesting is done with a tractor in combination with specialized equipment. A self-propelled harvester is also available. For this a higher budget is necessary, but it has the advantage of higher working width.</str>
+	<text name="helpLine_creatingRidgesdesc_4" >After harvesting, the products can either be sold or processed in one of the factories.</str>
+	<text name="helpLine_cropIconOverview" >Crop Icons</str>
+	<text name="helpLine_pianoFactorydesc" >The Central European map also has a special selling station to offer: The piano manufacture.
+	When there is no owner, it behaves like a normal selling station. If you are the owner, you can produce prestigious pianos and sell them for a profit.
+	The piano factory needs planks for its production. You can enter the factory and watch the piano being made before your eyes. When it is sold, the piano disappears from the sales room.</str>
+	<text name="helpLine_productionChains" >Production Chains</str>
+	<text name="helpLine_productionChainsdesc" >In addition to new building models for already existing productions, new factories will also find their way into Farming Simulator to match the new crops. You can either buy the already placed factories, should you play on Zielonka, or buy and build them yourself via the build mode menu.</str>
+	<text name="helpLine_productsIconOverview" >Product Icons</str>
+	<text name="helpLine_vegetables" >Root Vegetables</str>
+	<text name="helpLine_vegetablesDesc" >With the Premium Expansion, new types of root vegetables enter the Farming Simulator. Besides potatoes and sugar beets, it is now possible to grow carrots, parsnip and red beet.</str>
+	<text name="input_PALLET_FILLER_BUY_PALLETS" >Buy new boxes</str>
+	<text name="mapZielonka_description" >Welcome to Zielonka</str>
+	<text name="shopItem_pianoFactory" >Piano Manufacture</str>
+	<text name="shopItem_potatoProcessingPlant" >Potato Processing Plant</str>
+	<text name="shopItem_preservedFoodFactory" >Preserved Food Factory</str>
+	<text name="shopItem_sawmill" >Sawmill</str>
+	<text name="shopItem_soupFactory" >Soup Factory</str>
+	<text name="station_farmMain" >Main Farm</str>
+	<text name="station_farmNorth" >Farm North</str>
+	<text name="station_farmSouth" >Farm South</str>
+	<text name="station_trainStationDE" >Felsbrunn</str>
+	<text name="station_trainStationFR" >Haut-Beyleron</str>
+	<text name="storeItem_apple_stage03" >Apple Tree</str>
+	<text name="storeItem_archwall" >ArchWall</str>
+	<text name="storeItem_aspen_stage01" >Aspen Sapling</str>
+	<text name="storeItem_aspen_stage02" >Young Aspen</str>
+	<text name="storeItem_aspen_stage03" >Small Aspen</str>
+	<text name="storeItem_aspen_stage04" >Medium Aspen</str>
+	<text name="storeItem_aspen_stage05" >Large Aspen</str>
+	<text name="storeItem_aspen_stage06_var01" >Old Aspen (1)</str>
+	<text name="storeItem_aspen_stage06_var02" >Old Aspen (2)</str>
+	<text name="storeItem_beech_stage01" >Beech Sapling</str>
+	<text name="storeItem_beech_stage02_var02" >Young Beech (2)</str>
+	<text name="storeItem_beech_stage02_var03" >Young Beech (3)</str>
+	<text name="storeItem_beech_stage02_var1" >Young Beech (1)</str>
+	<text name="storeItem_beech_stage03" >Small Beech</str>
+	<text name="storeItem_beech_stage04" >Medium Beech</str>
+	<text name="storeItem_beech_stage05" >Large Beech</str>
+	<text name="storeItem_beech_stage06_var01" >Old Beech (1)</str>
+	<text name="storeItem_beech_stage06_var02" >Old Beech (2)</str>
+	<text name="storeItem_bricksShed" >Brick Shed</str>
+	<text name="storeItem_bricksShedChicken" >Shed With Open Chicken Pasture</str>
+	<text name="storeItem_bricksShedPigs" >Shed With Pig Pasture</str>
+	<text name="storeItem_garageSmall" >Small Garage</str>
+	<text name="storeItem_oak_stage05" >Old Oak</str>
+	<text name="storeItem_potatoChipsPallet" >Potato Chips Pallet</str>
+	<text name="storeItem_preservedFoodBeetRootPallet" >Preserved Food Beetroot Pallet</str>
+	<text name="storeItem_preservedFoodCarrotsPallet" >Preserved Food Carrots Pallet</str>
+	<text name="storeItem_preservedFoodParsnipPallet" >Preserved Food Parsnip Pallet</str>
+	<text name="storeItem_smallShed" >Small Shed</str>
+	<text name="storeItem_soupCansPallet" >Soup Cans Pallet</str>
+	<text name="storeItem_vegetablesPallet" >Vegetables Pallet</str>
+	<text name="treeType_apple" >Apple Tree</str>
+	<text name="treeType_aspen" >Aspen</str>
+	<text name="typeDesc_ridgeFormer" >ridge former</str>
+	<text name="typeDesc_topLiftingHarvester" >top lifting harvester</str>
+	<text name="ui_palletFillerBuyPalletsText" >Do you want to buy new boxes to fill? (%d for %s)" tag="format</str>
+	<text name="warning_harvesterRequiresTrailer" >Harvester requires trailer to overload!</str>
+	<text name="warning_palletFillerNoEmpty">Empty the tool first!</str>
+	<text name="warning_palletFillerNoPalletAvailable">No box to fill available!</str>
+	<text name="warning_palletFillerPlatformLowered">Lift up the platform first!</str>
+</root>
