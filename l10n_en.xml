@@ -121,7 +121,7 @@
 		<str key="fillType_MILLET"						>MILLET</str>								
 		<str key="fillType_ALFALFA"						>ALFALFA</str>								
 		<str key="fillType_ALFALFA_WINDROW"				>ALFALFA</str>						   
-		<str key="fillType_DRYALFALFA"					>ALFALFA"  />						   	 
+		<str key="fillType_DRYALFALFA"					>ALFALFA"  </str>						   	 
 		<str key="fillType_DRYALFALFA_WINDROW"			>ALFALFA</str>					          
 		<str key="fillType_HOPS"							>HOPS</str>									
 		<str key="fillType_HOPSPELLETS"				    >HOPSPELLETS</str>									
