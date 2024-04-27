@@ -7,7 +7,7 @@
 <str key="category_animalSupplies">Animal supplies</str>
 <str key="category_consumerGoods">Consumer Goods</str>
 <str key="closedText_default">We're closed, come back later!</str>
-<str key="ui_colorMattX">Matt %s" tag="format</str>
+<str key="ui_colorMattX">Matt</str>
 <str key="action_openServiceDoor">Open hatch</str>
 <str key="action_closeServiceDoor">Close hatch</str>
 <str key="action_wallsOn">Show walls</str>
