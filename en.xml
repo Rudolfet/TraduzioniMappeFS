@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <str key="OravskaPolhora_hint01">Mapa dediny. Mapa nekopiruje skutocnosť, ale ju napodobuje. </str>
+  <str key="OravskaPolhora_hint02">Mapa obsahuje Pohorie Babia Hora a okolie Oravskej Polhory</str>
+  <str key="category_miscObjects">Miscellaneous</str>
+  <str key="category_crates">Boxes</str>
+  <str key="category_animalSupplies">Animal supplies</str>
+  <str key="category_consumerGoods">Consumer Goods</str>
+  <str key="closedText_default">We're closed, come back later!</str>
+  <str key="ui_colorMattX">Matt</str>
+  <str key="action_openServiceDoor">Open hatch</str>
+  <str key="action_closeServiceDoor">Close hatch</str>
+  <str key="action_wallsOn">Show walls</str>
+  <str key="action_wallsOff">Hide walls</str>
+  <str key="action_openDoorTop">Open upper door</str>
+  <str key="action_closeDoorTop">Close upper door</str>
+  <str key="action_openDoorBottom">Open lower door</str>
+  <str key="action_closeDoorBottom">Close lower door</str>
+  <str key="action_openAtticDoor">Open attic door</str>
+  <str key="action_closeAtticDoor">Close attic door</str>
+  <str key="action_openAtticGate">Open attic gate</str>
+  <str key="action_closeAtticGate">Close attic gate</str>
+  <str key="action_openStableDoor">Open stable door</str>
+  <str key="action_closeStableDoor">Close stable door</str>
+  <str key="action_openBaleLattice">Open bale grid</str>
+  <str key="action_closeBaleLattice">Close bale grid</str>
+  <str key="action_lowerDown">Go down</str>
+  <str key="action_liftUp">Go up</str>
+  <str key="action_turnOnRadio">Turn on radio</str>
+  <str key="action_turnOffRadio">Turn off radio</str>
+  <str key="action_liftUpWindbreaker">Open weather protection</str>
+  <str key="action_lowerDownWindbreaker">Close weather protection</str>
+  <str key="action_startFruitHarvesting">Begin apple harvest</str>
+  <str key="action_stopFruitHarvesting">Stop apple harvest</str>
+  <str key="action_openElectroFence">Open pasture fence</str>
+  <str key="action_closeElectroFence">Close pasture fence</str>
+  <str key="action_openGates">Open gates</str>
+  <str key="action_closeGates">Close gates</str>
+  <str key="action_turnOnPump">Switch on the pump</str>
+  <str key="action_turnOffPump">Switch off the pump</str>
+  <str key="action_openButterDrum">Open butter drum</str>
+  <str key="action_closeButterDrum">Close butter drum</str>
+  <str key="action_sunLightSwitch">Toggle sunlight!</str>
+</root>
